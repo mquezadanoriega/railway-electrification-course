@@ -141,7 +141,92 @@ Solo se consideran las **partes no aisladas** del pantógrafo (no cuenta el troc
 
 ---
 
-## 5. APLICACIÓN PRÁCTICA AL DISEÑO DE UNA VÍA
+## 5. CÁLCULO RESUELTO (25 kV, CA-160H)
+
+> Ejemplo completo, resuelto con los datos de la norma. El desarrollo íntegro y sus
+> criterios de decisión se repiten y amplían en el Módulo 6, Caso 1 (3 kV); este
+> ejemplo aporta la variante de **25 kV c.a.** con catenaria híbrida.
+
+### 5.1. Datos
+
+| Parámetro | Valor | Origen |
+|-----------|-------|--------|
+| Sistema / catenaria | **25 kV c.a.** · CA-160H/25kV | NAE 302 (Módulo 5, lección 2) |
+| Mesilla del pantógrafo | 1.950 mm → **bw = 975 mm** | Cuadro 3.5 (25 kV) |
+| Altura de verificación | h'0 = 6,5 m → **ep = 170 mm**; h'u = 5 m → **ep = 110 mm** | FOM/1630/2015, 3.10.4.2 |
+| Vehículo | Longitud 26 m; centros de bogies L = 19 m; batalla n = 3 m | Hipótesis del caso |
+| Curva de estudio | R = 1.200 m; insuficiencia de peralte I = 120 mm | Hipótesis del caso |
+| Coeficiente de balanceo | s'0 = 0,225 | FOM/1630/2015, 3.10.4.2 |
+| Altura del hilo | hf = 5.300 mm | NAE 302, tabla 5 |
+| Elevación por la fuerza F | **fs = 55 mm** (a Vmáx) | NAE 302 (Módulo 5, lección 2) |
+| Flexibilidad + desgaste | fws + fwa = 70 mm | Cuadro 3.6 |
+| Distancia de aislamiento 25 kV | Estática **270 mm** / dinámica **150 mm** | Cuadro 3.7 · UNE-EN 50119 |
+| Trocador aislado | cw = 0 | FOM/1630/2015, 3.5.2 |
+| Margen de aleatorios | j' = 50 mm (media cuadrática × K', K' = 1) | FOM/1630/2015, anejo 7 |
+
+### 5.2. Paso 1 — Salientes por inscripción en curva (R = 1.200 m)
+
+```
+S'i = (19² − 3²) / (8 · 1200) = 352 / 9.600 = 0,0367 m ≈ 37 mm
+S'a = (26² − 19²) / (8 · 1200) = 315 / 9.600 = 0,0328 m ≈ 33 mm
+```
+
+### 5.3. Paso 2 — Semiancho del gálibo mecánico (a h'0 = 6,5 m, ep = 170 mm)
+
+El cuasiestático `qs'` se obtiene por el procedimiento de EN 15273-3 a partir de
+s'0 = 0,225 e I = 120 mm: **qs' ≈ 90 mm** (a I = 100 mm resulta 75 mm, como en el
+Módulo 6, lección 1, caso 1).
+
+```
+Recta:          b_mec = 975 + 170 + 0 + 0 + 50 = 1.195 mm
+Curva interior: b_mec = 975 + 170 + 37 + 90 + 50 = 1.322 mm
+Curva exterior: b_mec = 975 + 170 + 33 + 90 + 50 = 1.318 mm
+```
+
+### 5.4. Paso 3 — Gálibo eléctrico (25 kV, cw = 0)
+
+En curva: estática (270 mm) al **interior**, dinámica (150 mm) al **exterior**.
+En recta se aplica la estática (hipótesis dominante a V = 0).
+
+```
+Recta:          b_elect = 1.195 + 270 − 0 = 1.465 mm
+Curva interior: b_elect = 1.322 + 270 − 0 = 1.592 mm
+Curva exterior: b_elect = 1.318 + 150 − 0 = 1.468 mm
+```
+
+### 5.5. Paso 4 — Alturas del gálibo
+
+```
+h_mec   = hf + fs + fws + fwa = 5.300 + 55 + 70 = 5.425 mm
+h_elect = h_mec + belec       = 5.425 + 270     = 5.695 mm ≤ 6.500 mm ✓
+```
+
+### 5.6. Paso 5 — Verificación a la altura mínima h'u = 5 m
+
+Con ep = 110 mm y el hilo a 5.000 mm de altura de verificación:
+
+```
+b_mec (recta, h'u) = 975 + 110 + 50 = 1.135 mm  → menos restrictivo que a h'0
+h_mec (h'u)        = 5.000 + 55 + 70 = 5.125 mm → h_elect = 5.395 mm ≤ 6.500 mm ✓
+```
+
+La verificación a **h'0 = 6,5 m es la dominante** (mayor ep y mayor hf).
+
+### 5.7. Resumen
+
+| Magnitud | Recta | Curva interior | Curva exterior |
+|----------|-------|----------------|----------------|
+| Semiancho mecánico `b_mec` | 1.195 mm | 1.322 mm | 1.318 mm |
+| **Semigálibo eléctrico `b_elect`** | **1.465 mm** | **1.592 mm** | **1.468 mm** |
+| Altura del gálibo `h_elect` | 5.695 mm | 5.695 mm | 5.695 mm |
+
+> La catenaria **híbrida** se verifica con distancias de **25 kV** (270/150 mm) aun
+> explotándose en 3 kV: así el gálibo queda preparado para la transformación futura,
+> como exige la IFE para las electrificaciones nuevas de 3 kV (Módulo 4, lección 1).
+
+---
+
+## 6. APLICACIÓN PRÁCTICA AL DISEÑO DE UNA VÍA
 
 En el diseño de la electrificación, este gálibo condiciona:
 
@@ -159,7 +244,7 @@ En el diseño de la electrificación, este gálibo condiciona:
 
 ---
 
-## 6. PREGUNTAS DE AUTOEVALUACIÓN
+## 7. PREGUNTAS DE AUTOEVALUACIÓN
 
 1. ¿Por qué un poste metálico debe respetar el gálibo eléctrico y una estructura aislada no?
 2. ¿Cuál es la distancia de aislamiento eléctrico **estática** en una línea de 25 kV c.a.?
@@ -171,7 +256,7 @@ En el diseño de la electrificación, este gálibo condiciona:
 
 ---
 
-## 7. REFERENCIAS
+## 8. REFERENCIAS
 
 - Orden FOM/1630/2015, Instrucción Ferroviaria de Gálibos — apartados 3.5, 3.5.1, 3.5.2, 2.5, anejo 7
 - UNE-EN 50119:2010 — Aplicaciones ferroviarias. Instalaciones fijas. Líneas aéreas de contacto

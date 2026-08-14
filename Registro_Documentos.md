@@ -5,7 +5,7 @@
 > **Fuente:** `C:\Users\lenovo\OneDrive\Documentos\03_Energia`
 > **Total:** 106 documentos · ~7.880 páginas
 > **Fecha de catalogación:** 11 de agosto de 2026
-> **Estado:** integrados en los 7 módulos del curso (26 lecciones, 15/08/2026)
+> **Estado:** integrados en los 7 módulos del curso (27 lecciones, 15/08/2026)
 
 ---
 
@@ -208,7 +208,7 @@ Energía)**.
 | C | ET Subestaciones Eléctricas | 30 | ✔ integradas (Módulo 5) |
 | D | ET Telemandos | 3 | ✔ integrados (Módulo 5) |
 | E | Normativa BOE (gálibos, IFI, IFE, REVINFE) | 4 | ✔ 4 integradas (REVINFE referenciada en Módulo 0) |
-| **Total** | | **106** | **106 integradas (26/26 lecciones)** |
+| **Total** | | **106** | **106 integradas (27/27 lecciones)** |
 
 > Los 106 documentos ADIF están identificados e integrados. Las ET 03.364.197.8
 > (Útiles de operación para pórticas), 03.364.154.9 (Aisladores de porcelana),

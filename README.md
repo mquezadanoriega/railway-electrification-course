@@ -152,11 +152,17 @@ Volume8_RailwayElectrification/
 | Lección 15 | Telemando de energía (IEC 60870-5-101/104) | ET 03.359 |
 
 ### Módulo 6: Casos prácticos
-- Cálculo de gálibo de pantógrafo
-- Dimensionado de un cantón de 3 kV CC por caída de tensión
-- Verificación de la TSI ENE / IFE
-- Selección de catenaria y aisladores para 25 kV
-- Cadena normativa completa de cada decisión de diseño
+- Lección 1: Casos resueltos
+  - Cálculo de gálibo de pantógrafo
+  - Dimensionado de un cantón de 3 kV CC por caída de tensión
+  - Verificación de la TSI ENE / IFE
+  - Selección de catenaria y aisladores para 25 kV
+  - Cadena normativa completa de cada decisión de diseño
+- Lección 2: Caso completo de diseño de catenaria desde un trazado
+  - Alturas del hilo, gálibo del pantógrafo y desviación lateral (apéndice E IFE)
+  - Vanos, descentramientos y cantón de compensación por radio
+  - Selección de postes y macizos de catálogo (MLS)
+  - Detección de los casos que requieren **cálculo específico** (poste, macizo, pendolado)
 
 ---
 

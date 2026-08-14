@@ -446,6 +446,32 @@ hacia la vía (habitual); **M−** = vuelco al lado contrario.
 | PG1 400 | 23.600 | 10,25 | d15 / Cd7 | t15 / t16 / Ct7 | ARM-4 | 40 |
 | PG1 450 | 32.700 | 10,25 | d20 / Cd8 | t19 / t20 / Ct8 | ARM-4 | 40 |
 
+### 4.7. CUÁNDO SE REQUIERE CÁLCULO ESPECÍFICO (poste, macizo, pendolado)
+
+> **Principio del proyecto tipo Adif:** las NAE 300/301/302 **ya han calculado** postes,
+> macizos, vanos y pendolado para las hipótesis del proyecto tipo. El diseñador **elige de
+> catálogo** y **no recalcula**. El **cálculo específico** (que el alumno debe saber
+> **identificar**, no necesariamente ejecutar) es obligatorio cuando:
+
+| # | Situación | Consecuencia en el proyecto |
+|---|-----------|-----------------------------|
+| 1 | **Momento solicitante > MLS** del poste de catálogo más potente de la familia (p. ej. > 33.053 daN·m de la Z6bis, o > 23.798 de la Z5bis en configuraciones no tabuladas) | Poste **especial** con cálculo de esfuerzos y macizo propio |
+| 2 | **Terreno distinto** de las hipótesis de los anejos III (C₀ = 6 daN/m³, H = 12 m, γt = 1400 daN/m³, tanα = 0,005, σlat = 1 daN/cm²) | Recálculo del macizo (NAE 106) o cimentación especial |
+| 3 | **Vano o radio fuera de tabla** (apoyos por condicionantes del trazado, agujas en curvas de radio pequeño, seccionamientos de 5+ vanos) | Justificación con **cálculo de desviación lateral** (IFE apéndice E) y verificación de captación |
+| 4 | **Altura del hilo fuera de rango** (pasos inferiores, túneles con altura reducida) | Recálculo de pendolado según NAE 116 y verificación de gálibo |
+| 5 | **Pantógrafo distinto** de la hipótesis (1950 mm en híbridas si no hay plan de transformación; mesilla de 1600 mm) | Verificación de desviación lateral y descentramiento (IFE 4.1.2.2.1.2) |
+| 6 | **Péndolas**: las tablas de distribución son de referencia; cada caso particular (vanos fuera de tabla, pendientes, agujas) requiere **cálculo específico según NAE 116** | Cálculo de péndolas y reparto en el proyecto |
+| 7 | **Atirantado con tensión radial > 250 daN** (límite del conjunto de atirantado estándar) | Justificación de atirantado de hasta 400 daN o soporte especial |
+| 8 | **Carga de hielo, altitud o viento** fuera de las hipótesis (altitud > 1.500 m, mapa de viento 29 m/s superado, túneles con Ktun) | Recálculo de vanos, tenses y macizos (IFE 4.1.2.2.1.4) |
+| 9 | **Reutilización de postes/cimentaciones existentes** en renovación o acondicionamiento | Comprobación estructural y de gálibo con los parámetros actuales |
+| 10 | **Estructuras especiales** (pórticos sobre varias vías, brazos de atirantado sobre puentes, catenaria rígida en túneles) | Cálculo propio de la estructura según su ET (03.364.101.0, 102.8…) |
+
+**Regla de oro:** mientras el proyecto se mantiene dentro de las hipótesis del proyecto
+tipo (radio ≥ mínimo tabulado, vano ≤ máximo, terreno tipo, pantógrafo y viento de la
+tabla), la elección de poste/macizo es **de catálogo** (tabla anterior). Al primer caso
+que se desvía de esas hipótesis, el diseño funcional se convierte en **cálculo específico**
+y el proyecto debe incorporar su **memoria de cálculo justificativa**.
+
 **Anejo IV — Configuraciones de seccionamiento (cómo se leen las tablas):**
 las tablas del Anejo IV (SC y SLA, vientos 26 y 27 m/s) dan, para cada **radio y
 rango de vano**, el tipo de seccionamiento (3 o 4 vanos), el patrón de

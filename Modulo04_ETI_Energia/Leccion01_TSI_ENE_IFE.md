@@ -241,6 +241,60 @@ mantenimiento está completo**.
   aislamiento vertical de 0,50 m** entre el punto más alto del vehículo de carretera
   (incluida la carga) y las partes activas.
 
+### 6.2.1 Cálculo de la desviación lateral del hilo de contacto (apéndice E)
+
+La desviación lateral máxima admisible del hilo de contacto es **400 mm** (pantógrafo
+de 1.600 mm) o **550 mm** (pantógrafo de 1.950 mm), **ajustables según el apéndice E** de
+la IFE. El apéndice E define el cálculo de la desviación lateral máxima del hilo de
+contacto teniendo en cuenta el **movimiento total del pantógrafo respecto a la posición
+nominal de la vía** y la **longitud de la zona conductora**:
+
+```
+parámetros del cuadro E:  bobstáculo, bw, bw,c, dl, heff
+```
+
+| Parámetro | Definición | Unidad |
+|-----------|------------|--------|
+| `bobstáculo` | Distancia entre la perpendicular al eje de vía y el obstáculo, en sección transversal, hacia el exterior de la curva | m |
+| `bw` | Semiancho de la mesilla del pantógrafo | m |
+| `bw,c` | **Semiancho de la zona conductora** del arco del pantógrafo | m |
+| `dl` | Desviación lateral del hilo de contacto | m |
+| `heff` | Altura del gálibo mecánico cinemático del pantógrafo | m |
+
+El valor de `bw,c` según el pantógrafo (apéndice E):
+
+| Pantógrafo | bw,c |
+|------------|------|
+| Europantógrafo de 1.600 mm | **600 mm** |
+| Europantógrafo de 1.950 mm | **775 mm** |
+| Pantógrafo RENFE de 1.950 mm | **755 mm** |
+| Pantógrafo RENFE de 1.860 mm | **710 mm** |
+
+Para el obstáculo `bobstáculo` se sigue la **Instrucción Ferroviaria de Gálibos**
+(FOM/1630/2015) para el gálibo mecánico cinemático del pantógrafo (Módulo 3, lección 1).
+
+**Evaluación de la fuerza del viento** (apartado 4.1.2.2.1.2):
+
+- Se parte de la **velocidad básica fundamental del viento Vb,0** (apéndice F: mapa de
+  isotacas, periodo de retorno 50 años, definida en la UNE-EN 50119).
+- Para evaluar la desviación por viento sobre sustentador, péndolas e hilo, esta velocidad
+  **se puede corregir hasta un periodo de retorno mínimo de 10 años**, conforme al apartado
+  4.4.1 de la UNE-EN 50125-2. (Adif materializa este valor en el mapa del anejo I de las
+  NAE 300/301/302: **26 / 27 / 29 m/s**, retorno 10 años.)
+- La fuerza del viento sobre los conductores individuales se evalúa según el apartado
+  **6.2.4 de la UNE-EN 50119**; si hay condiciones no contempladas en la norma, se estudia
+  cada caso concreto (→ **cálculo específico**).
+- El desplazamiento máximo resultante en cada punto de la LAC debe verificar que la
+  desviación lateral del hilo **no supera la admisible del cuadro 4.1.2.2.1.1**
+  (400 / 550 mm) y que **el hilo queda contenido dentro de la banda de frotamiento**
+  del pantógrafo.
+
+> En la práctica, las NAE 300/301/302 ya contienen tabulados los vanos y descentramientos
+> máximos por radio y viento que garantizan esta verificación (lección 2 del Módulo 5).
+> El proyectista solo entra en el cálculo del apéndice E cuando las hipótesis de esas
+> tablas no se cumplen (otro pantógrafo, otra altura, otra altitud u otro viento), lo que
+> desencadena el **estudio/cálculo específico** (ver Módulo 6, lección 2).
+
 ### 6.3 Gradiente de la altura del hilo de contacto
 
 La variación de altura del hilo se conseguirá con el menor gradiente posible, sin superar
@@ -260,10 +314,33 @@ al menos los de la tabla 12 de la UNE-EN 50119.
 
 ### 6.4 Tolerancias, cargas de hielo y altura mínima de diseño
 
-- **Tolerancia vertical de la vía (a1):** 20 mm en vía balastada; 5 mm en vía en placa.
-- **Tolerancia de montaje del hilo (a2):** 10 mm.
-- La altura mínima de diseño se calcula por las **hipótesis estática y dinámica** por
-  separado, adoptando la más restrictiva: HCW d,mín = máx (HCW d,mín,EST; HCW d,mín,DIN).
+#### 6.4.1 Variables de la figura 4.1.2.2.1.4
+
+| Variable | Significado | Valor en RFIG |
+|----------|-------------|---------------|
+| `KRP` | Altura del contorno de referencia cinemático del gálibo elegido | Según FOM/1630/2015 |
+| `ΔhRV` | Desplazamiento por inscripción en acuerdo vertical de vía | ΔhRV ≈ a²/(8·Rv) (a = longitud del vehículo; Rv = radio del acuerdo) |
+| `ECs / ECd` | Distancia de aislamiento eléctrica estática / dinámica (tabla 2 de UNE-EN 50119) | 3 kV: 150/50 mm · 25 kV: 270/150 mm |
+| `a1` | Tolerancia vertical de la vía | **20 mm** balastada · **5 mm** en placa |
+| `a2` | Tolerancia de montaje del hilo de contacto | **10 mm** |
+| `a3` | Desplazamientos dinámicos descendentes del hilo | Por simulación dinámica (vano máx. y velocidad) |
+| `a4` | Incremento de flecha por hielo (sustentador e hilos) | Fórmula de flecha con sobrecarga de hielo |
+
+#### 6.4.2 Hipótesis de cálculo de la altura mínima de diseño
+
+Se consideran por separado la hipótesis **estática** (tren detenido) y la **dinámica**
+(tren circulando), adoptando la más restrictiva:
+
+```
+HCWd,mín,EST = KRP + ΔhRV + ECs + a1 + a2 + a4
+HCWd,mín,DIN = KRP + ΔhRV + ECd + a1 + a2 + a3 + a4
+HCWd,mín     = máx (HCWd,mín,EST ; HCWd,mín,DIN)
+```
+
+El incremento de flecha por hielo (a4) se calcula como la flecha adicional que la
+sobrecarga de hielo produce en sustentador e hilos de contacto (fórmula de catenaria
+compensada de la IFE, en función de vano L, tenses Tcat y Tcont y cargas de hielo gIK).
+
 - **Cargas de hielo** sobre sustentador/otros cables y sobre hilos de contacto:
 
 | Altitud sobre el nivel del mar | Carga en sustentador y otros cables (N/m) | Carga en hilos de contacto (N/m) |
@@ -274,7 +351,17 @@ al menos los de la tabla 12 de la UNE-EN 50119.
 | > 1.500 m | 15 | 7,5 |
 
 En túneles se puede aplicar el coeficiente corrector **Ktun** (de 0,2 a 1,0) según la
-longitud del túnel y la altitud.
+longitud del túnel y la altitud (0,6–1,0 a 500–1.000 m; 0,6–1,0 a > 1.000 m según Ltun).
+
+#### 6.4.3 Valores de la IFE
+
+- La **altura mínima de diseño** (HCWd,mín) resulta el máximo de ambas hipótesis.
+- Valor tabulado de la IFE: **5.080 mm** para v ≥ 250 km/h; para v < 250 km/h, se calcula
+  según el apartado 4.1.2.2.1.4 en función del gálibo elegido.
+- La **altura máxima** (HCWmáx) se obtiene sumando a la altura máxima de diseño las
+  tolerancias **a5–a8** (vía, elevación por el pantógrafo, montaje y desgaste/temperatura).
+- Regla general de la IFE: **altura nominal 5.300 mm**, altura mínima de diseño
+  **≥ 5.080 mm** y altura máxima **≤ 6.000 mm** (v < 250 km/h).
 
 ### 6.5 Fuerzas de contacto y calidad de la captación
 

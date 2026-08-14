@@ -94,6 +94,17 @@ de la línea. Se agrupan en:
 | Silletas y soportes | SS-AV, S8, S13 | Soportes de seccionador |
 | Suspensiones | SF-AV, W1a | Suspensión de feeder |
 
+> **Selección del poste (de catálogo vs. cálculo específico):** las NAE 300/301/302
+> tabulan el poste por función y su **momento límite de servicio (MLS)** — p. ej. en
+> CA-220/3kV: XR2 = 6.829 daN·m, XR4 = 9.420, Z3 = 10.263, Z5 = 13.441, Z5bis = 23.798,
+> Z6bis = 33.053 (lección 2, anejo III). Mientras la solicitación del punto (viento,
+> tense, número de vías, aguja, feeder) **no supera el MLS**, el poste se elige **de
+> catálogo**. El **cálculo específico de estructura** (poste especial, pórtico no
+> tabulado o comprobación de un poste existente) solo procede cuando: se supera el MLS
+> de la familia más potente, el terreno no es el tipo de los anejos, se reutiliza un
+> poste existente, o hay una estructura atípica — casos que se desarrollan en la lección
+> 2 del Módulo 5 y en el Módulo 6 (caso completo de diseño).
+
 ### 3.3. Materiales y protección general
 
 - Las estructuras son **estructuras soldadas de acero**, fabricadas con productos laminados en caliente,

@@ -164,6 +164,29 @@ fácil de retirar.
 amarrado con **vientos de seguridad** para garantizar la posición tras el fraguado y la
 seguridad de personas, instalaciones y circulaciones.
 
+### 3.5. CUÁNDO LA CIMENTACIÓN REQUIERE CÁLCULO ESPECÍFICO (salida de catálogo)
+
+> **Principio:** las tablas de la NAE 106 y los anejos III de las NAE 300/301/302 dan el
+> macizo **de catálogo** para cada poste. Mientras las hipótesis de cálculo se cumplen,
+> el proyectista **no calcula**: selecciona el macizo tabulado. El **cálculo específico**
+> (que no debe hacer el alumno, pero sí **saber identificar**) se dispara en estos casos:
+
+| # | Situación que exige cálculo específico | Norma de referencia |
+|---|----------------------------------------|---------------------|
+| 1 | **Terreno distinto** de la hipótesis de las tablas: C₀ ≠ 6 daN/m³, H ≠ 12 m, γt ≠ 1400 daN/m³, tanα ≠ 0,005, σlat ≠ 1 daN/cm² (p. ej. suelos blandos, arcillas expansivas, rellenos, nivel freático alto) | NAE 106 (anejo III) · NAE 300/301/302 |
+| 2 | **Falta de terreno** en la Zona «Estudio Justificativo» (no es No Afección ni Tratamiento Terraplén): recurrir a **cimentaciones especiales respaldadas por cálculos** | NAE 106, 3.2 |
+| 3 | **Roca o pedraplén** (fuera del campo de aplicación de la NAE 106) | NAE 106, 3.1 |
+| 4 | Poste sobre **estructura existente** (puente, viaducto, muro, losa, mampostería/sillería): anclaje sin macizo | NAE 113 · NAE 103 |
+| 5 | **Micropilotes** u otras soluciones de cimentación profunda | NAE 106, 3.1 (excluido) |
+| 6 | **Poste con momento solicitante > momento admisible** del macizo de catálogo (p. ej. sección de aguja doble, pórtico, anclaje de compensación, feeder adicional): macizo no tabulado | NAE 106 · NAE 300/301/302 anejo III |
+| 7 | **Carga de hielo o viento** fuera de las hipótesis de proyecto (altitud > 1.500 m, zonas de viento extremo, túneles con Ktun) | IFE 4.1.2.2.1.4 |
+| 8 | **Reutilización de cimentaciones existentes** (reaprovechamiento en renovación o acondicionamiento) | NAE 106 · IFE |
+
+**Regla práctica para el proyecto tipo:** si el poste es de catálogo (XR/Z/PG1/X-AV…) y el
+macizo que le corresponde según la tabla cubre el momento vuelco, **no se calcula**: se
+planta la solución tabulada. Solo cuando se da uno de los 8 casos anteriores el proyecto
+debe incluir una **memoria de cálculo de cimentación** firmada por el técnico competente.
+
 ---
 
 ## 4. EJECUCIÓN PASO A PASO (EXCAVACIÓN, REPLANTEO, VERTIDO, DESENCOFRADO)
