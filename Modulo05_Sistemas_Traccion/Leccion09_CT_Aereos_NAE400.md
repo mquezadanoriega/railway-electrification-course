@@ -8,6 +8,10 @@
 > Grupo de trabajo GT-300 · Propuesta: 25-jun-2024 · Aprobada por el Comité de
 > Normativa (26-jun-2024). No deroga ningún documento normativo. Entró en vigor en
 > la fecha de su aprobación.
+>
+> **Complementaria:** ET 03.364.506.0 — «Transformadores aéreos» (1ª ed., jun. 2025),
+> 24 págs., GT-300. Fija las características y condiciones de suministro de los
+> transformadores de distribución que se montan en los CT aéreos de la LAC.
 
 ---
 

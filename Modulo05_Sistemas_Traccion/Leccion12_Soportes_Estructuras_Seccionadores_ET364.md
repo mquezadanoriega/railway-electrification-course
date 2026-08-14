@@ -17,6 +17,7 @@
 > - ET 03.364.151.5 — Accionamientos eléctricos para seccionadores (3ª ed., ene. 2020)
 > - ET 03.364.155.6 — Accionamientos hidráulicos para seccionadores de catenaria (2ª ed., jul. 2020)
 > - ET 03.364.156.4 — Pararrayos de óxido metálico para electrificación en corriente continua (1ª ed. jul. 2015 + M1 ene. 2020)
+> - ET 03.364.197.8 — Útiles de operación para pórticas (1ª ed., abr. 1998)
 >
 > Elaboradas por el Grupo de Trabajo GT-300 (ET 150, 151, 155, 156 también con GT-301).
 

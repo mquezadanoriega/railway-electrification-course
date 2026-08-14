@@ -60,7 +60,7 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 | 30 | ET 03.364.158.0 | Conductores de cobre desnudos | 22 | 5 | ✓ (Lección 10) |
 | 31 | ET 03.364.159.8 | Conductores de cobre débilmente aleado | 20 | 5 | ✓ (Lección 10) |
 | 32 | ET 03.364.161.4 | Cables desnudos de Al y Al-Ac | 28 | 5 | ✓ (Lección 10) |
-| 33 | ET 03.364.160.6 | *(conductor, por identificar)* | 35 | 5 | ✓ (Lección 10) |
+| 33 | ET 03.364.160.6 | Pértigas aislantes para LAC | 35 | 5 | ✓ (Lección 10) |
 | 34 | ET 03.364.291.9 | Hilo ranurado | 18 | 5 | ✓ (Lección 10) |
 | 35 | ET 03.364.170.5 | Cables aislados | — | 5 | ✓ (Lección 10) |
 
@@ -75,12 +75,12 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 | 40 | ET 03.364.015.2 | Grifas y manguitos de cobre | 17 | 2 | ✓ (Lección 4) |
 | 41 | ET 03.364.016.0 | Grifas de aleación de cobre | 18 | 2 | ✓ (Lección 4) |
 | 42 | ET 03.364.018.6 | Grifas de atirantado y de péndola | 19 | 2 | ✓ (Lección 4) |
-| 43 | ET 03.364.019.4 | *(herraje, por identificar)* | 17 | 2 | ◐ (Lección 4, parcial) |
-| 44 | ET 03.364.020.2 | *(herraje, por identificar)* | 21 | 2 | ◐ (Lección 4, parcial) |
+| 43 | ET 03.364.019.4 | Piezas, tornillería y tubos de acero galvanizados en caliente | 17 | 2 | ✓ (Lección 4) |
+| 44 | ET 03.364.020.2 | Manguitos de empalme y grapas de aluminio para sujeción o derivación de cables de Al en LAC | 21 | 2 | ✓ (Lección 4) |
 | 45 | ET 03.364.021.0 | Grapas y terminales de línea de tierra | 22 | 2 | ✓ (Lección 4) |
 | 46 | ET 03.364.022.8 | Ejes y estribos de acero y acero inoxidable para LAC | 11 | 2 | ✓ (Lección 4) |
 | 47 | ET 03.364.200.0 | Grapas de anclaje tipo cono | 20 | 2 | ✓ (Lección 4) |
-| 48 | ET 03.364.201.8 | *(grapa/fijación, por identificar)* | 51 | 2 | ◐ (Lección 4, parcial) |
+| 48 | ET 03.364.201.8 | Verificadores de ausencia de tensión de 3 kV c.c. | 51 | 5 | ✓ (Lección 11) |
 
 ### Soportes y estructuras
 
@@ -90,14 +90,14 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 | 50 | ET 03.364.102.8 | Brazos de atirantado | 15 | 5 | ✓ (Lección 12) |
 | 51 | ET 03.364.103.6 | Conjunto de poleas | 21 | 5 | ✓ (Lección 12) |
 | 52 | ET 03.364.104.4 | Conjuntos de giro | 14 | 5 | ✓ (Lección 12) |
-| 53 | ET 03.364.197.8 | *(soporte, por identificar)* | 25 | 5 | ☐ (sin título, no integrada) |
+| 53 | ET 03.364.197.8 | Útiles de operación para pórticas | 25 | 5 | ✓ (Lección 12) |
 
 ### Aislamiento y protección
 
 | # | Referencia | Título | Págs. | Módulo | Estado |
 |---|------------|--------|-------|--------|--------|
 | 54 | ET 03.364.153.1 | Aisladores de seccionador | — | 5 | ✓ (Lección 11) |
-| 55 | ET 03.364.154.9 | *(aislador, por identificar)* | — | 5 | ☐ (sin título, no integrada) |
+| 55 | ET 03.364.154.9 | Aisladores de porcelana para LAC de 3.300 V c.c. (suspensión y atirantado; tipos A-11 y RT-51) | 20 | 5 | ✓ (Lección 11) |
 | 56 | ET 03.364.156.4 | Pararrayos de óxido metálico | 15 | 5 | ✓ (Lección 11) |
 | 57 | ET 03.364.162.2 | Aisladores cerámicos para LAC 3 kV CC y 25 kV CA | 23 | 5 | ✓ (Lección 11) |
 | 58 | ET 03.364.163.0 | Aisladores cerámicos de suspensión | 17 | 5 | ✓ (Lección 11) |
@@ -113,14 +113,14 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 |---|------------|--------|-------|--------|--------|
 | 64 | ET 03.364.151.5 | Accionamientos eléctricos de seccionadores | 17 | 5 | ✓ (Lección 12) |
 | 65 | ET 03.364.155.6 | Accionamientos hidráulicos | — | 5 | ✓ (Lección 12) |
-| 66 | ET 03.364.150.7 | *(accionamiento, por identificar)* | — | 5 | ◐ (Lección 12, parcial) |
+| 66 | ET 03.364.150.7 | Seccionadores unipolares para instalación exterior de 3 kV c.c. y de 25 kV c.a. para catenaria | 22 | 5 | ✓ (Lección 12) |
 
 ### Otros
 
 | # | Referencia | Título | Págs. | Módulo | Estado |
 |---|------------|--------|-------|--------|--------|
-| 67 | ET 03.364.503.7 | *(por identificar)* | — | 5 | ☐ (sin título, no integrada) |
-| 68 | ET 03.364.506.0 | *(por identificar)* | — | 5 | ☐ (sin título, no integrada) |
+| 67 | ET 03.364.503.7 | Herrajes de fundición de aluminio para electrificación AV | 47 | 2 | ✓ (Lección 4) |
+| 68 | ET 03.364.506.0 | Transformadores aéreos | 24 | 5 | ✓ (Lección 9) |
 
 ---
 
@@ -204,18 +204,17 @@ Energía)**.
 | Bloque | Contenido | Documentos | Estado |
 |--------|-----------|-----------|--------|
 | A | Normas NAE (catenaria) | 29 | ✔ integradas (Módulos 2 y 5) |
-| B | ET Línea Aérea de Contacto | 40 | ✔ 36 integradas · 4 sin identificar sin integrar |
+| B | ET Línea Aérea de Contacto | 40 | ✔ integradas (Módulos 2 y 5) |
 | C | ET Subestaciones Eléctricas | 30 | ✔ integradas (Módulo 5) |
 | D | ET Telemandos | 3 | ✔ integrados (Módulo 5) |
 | E | Normativa BOE (gálibos, IFI, IFE, REVINFE) | 4 | ✔ 4 integradas (REVINFE referenciada en Módulo 0) |
-| **Total** | | **106** | **102 integradas · 4 sin integrar** |
+| **Total** | | **106** | **106 integradas (26/26 lecciones)** |
 
-> Las 4 ET sin integrar (ET 03.364.197.8, 154.9, 503.7 y 506.0) no tienen título
-> identificado en la carpeta de origen; se catalogaron como «por identificar» y
-> no se pudieron procesar. Quedan pendientes de su identificación.
->
-> Los 3 documentos con estado ◐ (ET 03.364.019.4, 020.2 y 201.8) están integrados
-> solo parcialmente en la Lección 4 del Módulo 2 (mismo motivo: sin título).
+> Los 106 documentos ADIF están identificados e integrados. Las ET 03.364.197.8
+> (Útiles de operación para pórticas), 03.364.154.9 (Aisladores de porcelana),
+> 03.364.503.7 (Herrajes de fundición de aluminio para AV) y 03.364.506.0
+> (Transformadores aéreos) se identificaron a partir de sus portadas PDF y se
+> incorporaron a las Lecciones 12, 11, 4 y 9 del Módulo 5/2 respectivamente.
 >
 > Además de las normas catalogadas, las lecciones citan normas complementarias:
 > serie EN 501xx (EN 50119, 50122-1/-2/-3, 50149, 50163, 50367, 50388), RD 929/2020,

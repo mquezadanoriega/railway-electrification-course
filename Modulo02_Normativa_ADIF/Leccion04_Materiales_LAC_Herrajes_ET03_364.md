@@ -1,6 +1,6 @@
 # MÓDULO 2 – LECCIÓN 4
 
-# MATERIALES DE LA LAC I: HERRAJES Y FIJACIONES (ET 03.364.004 a 201)
+# MATERIALES DE LA LAC I: HERRAJES Y FIJACIONES (ET 03.364.004 a 503)
 
 ## Documento base
 
@@ -13,12 +13,12 @@
 | ET 03.364.015.2 | Grifas y manguitos de cobre | 17 | ✔ |
 | ET 03.364.016.0 | Grifas de aleación de cobre | 18 | ✔ |
 | ET 03.364.018.6 | Grifas de atirantado y de péndola | 19 | ✔ |
-| ET 03.364.019.4 | Herraje (por identificar) | 17 | ✔ |
-| ET 03.364.020.2 | Herraje (por identificar) | 21 | ✔ |
+| ET 03.364.019.4 | Piezas, tornillería y tubos de acero galvanizados en caliente | 17 | ✔ |
+| ET 03.364.020.2 | Manguitos de empalme y grapas de aluminio para sujeción o derivación de cables de Al en LAC | 21 | ✔ |
 | ET 03.364.021.0 | Grapas y terminales de línea de tierra | 22 | ✔ |
 | ET 03.364.022.8 | Ejes y estribos de acero y acero inoxidable para LAC | 11 | ✔ |
 | ET 03.364.200.0 | Grapas de anclaje tipo cono | 20 | ✔ |
-| ET 03.364.201.8 | Grapa/fijación (por identificar) | 51 | ✔ |
+| ET 03.364.503.7 | Herrajes de fundición de aluminio para electrificación AV | 47 | ✔ |
 
 ---
 

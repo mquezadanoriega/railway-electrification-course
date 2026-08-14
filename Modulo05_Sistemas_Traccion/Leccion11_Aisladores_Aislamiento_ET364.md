@@ -1,6 +1,6 @@
 # MÓDULO 5 · LECCIÓN 11
 
-# AISLADORES Y AISLAMIENTO DE LA LÍNEA AÉREA DE CONTACTO (ET 03.364.153, 162, 163, 164, 165, 202, 203 Y 204)
+# AISLADORES Y AISLAMIENTO DE LA LÍNEA AÉREA DE CONTACTO (ET 03.364.153, 154, 162, 163, 164, 165, 201, 202, 203 Y 204)
 
 ## Documento base
 
@@ -12,16 +12,18 @@
 | ET 03.364.165.5 | Aisladores de vidrio para L.A.C. de 3 kV c.c. y de 25 kV c.a. | 2ª edición, enero 2020 | 21 |
 | ET 03.364.202.6 | Aisladores compuestos para línea aérea de contacto | 2ª edición, octubre 2018 + M1 enero 2020 + Erratum enero 2021 | 25 |
 | ET 03.364.153.1 | Aisladores de sección de material compuesto para L.A.C. de 3 kV c.c. y 25 kV c.a. | 3ª edición, enero 2021 | 22 |
+| ET 03.364.154.9 | Aisladores de porcelana para tensión de 3.300 V c.c. para la suspensión y atirantado de catenaria (tipos A-11 y RT-51) | 3ª edición, febrero 2022 | 20 |
 | ET 03.364.203.4 | Verificación de tensión 3 kV c.c. con indicación adicional c.a. | 2ª edición, julio 2020 | 37 |
+| ET 03.364.201.8 | Verificadores de ausencia de tensión de 3 kV c.c. | 1ª edición, diciembre 2001 | 51 |
 | ET 03.364.204.2 | Dispositivos limitadores de tensión para electrificaciones en corriente continua | 1ª edición + M1 enero 2020 | 17 |
 
-> El **aislamiento de la línea aérea de contacto (LAC)** está formado por los **aisladores** —los elementos que separan eléctricamente las partes en tensión de los soportes puestos a tierra— y por los **dispositivos asociados a la seguridad del aislamiento**: los **verificadores de tensión** empleados por el personal de mantenimiento y los **dispositivos limitadores de tensión (VLD)** que protegen la instalación frente a sobretensiones. Estas especificaciones técnicas de Adif, elaboradas por el Grupo de Trabajo **GT-300 · Línea Aérea de Contacto** del Comité de Normativa, fijan las **características técnicas** y las condiciones de **validación, recepción y suministro** de los aisladores de **cerámica** (ET 03.364.162.2 y 163.0), de **vidrio** (ET 03.364.164.8 y 165.5), **compuestos** (ET 03.364.202.6) y de **sección** (ET 03.364.153.1), así como de los verificadores de tensión (ET 03.364.203.4) y de los limitadores de tensión en c.c. (ET 03.364.204.2). La **línea de fuga** y las **tensiones soportadas** son los parámetros que definen el nivel de aislamiento exigido en cada electrificación.
+> El **aislamiento de la línea aérea de contacto (LAC)** está formado por los **aisladores** —los elementos que separan eléctricamente las partes en tensión de los soportes puestos a tierra— y por los **dispositivos asociados a la seguridad del aislamiento**: los **verificadores de tensión** empleados por el personal de mantenimiento y los **dispositivos limitadores de tensión (VLD)** que protegen la instalación frente a sobretensiones. Estas especificaciones técnicas de Adif, elaboradas por el Grupo de Trabajo **GT-300 · Línea Aérea de Contacto** del Comité de Normativa, fijan las **características técnicas** y las condiciones de **validación, recepción y suministro** de los aisladores de **cerámica** (ET 03.364.162.2, 163.0 y 154.9), de **vidrio** (ET 03.364.164.8 y 165.5), **compuestos** (ET 03.364.202.6) y de **sección** (ET 03.364.153.1), así como de los verificadores de tensión (ET 03.364.203.4), los verificadores de **ausencia de tensión** de 3 kV c.c. (ET 03.364.201.8) y los limitadores de tensión en c.c. (ET 03.364.204.2). La **línea de fuga** y las **tensiones soportadas** son los parámetros que definen el nivel de aislamiento exigido en cada electrificación.
 
 ---
 
 ## 1. RESULTADO DE APRENDIZAJE
 
-> Al terminar esta lección serás capaz de **identificar y describir los aisladores y los dispositivos de aislamiento de la línea aérea de contacto de Adif** conforme a las especificaciones técnicas ET 03.364.153.1, 162.2, 163.0, 164.8, 165.5, 202.6, 203.4 y 204.2: distinguir los **aisladores cerámicos** (tipos A40, A65, A66, A2, A5, A6 y A7), de **vidrio templado** (A11, RT51 y demás unidades para catenaria) y **compuestos** (suspensión, atirantado, anclaje, ménsula, apoyo y aislamientos intermedios), así como los **aisladores de sección** que separan tramos de catenaria. También conocerás sus **características eléctricas** (línea de fuga, tensión soportada a frecuencia industrial y a impulso tipo rayo) y **mecánicas** (carga mecánica especificada, cargas de flexión y tracción), el proceso de **validación y los ensayos de recepción**, los requisitos de **marcado** y el papel de los **verificadores de tensión (ET 03.364.203.4)** y de los **dispositivos limitadores de tensión VLD (ET 03.364.204.2)**.
+> Al terminar esta lección serás capaz de **identificar y describir los aisladores y los dispositivos de aislamiento de la línea aérea de contacto de Adif** conforme a las especificaciones técnicas ET 03.364.153.1, 154.9, 162.2, 163.0, 164.8, 165.5, 201.8, 202.6, 203.4 y 204.2: distinguir los **aisladores cerámicos** (tipos A40, A65, A66, A2, A5, A6 y A7), de **vidrio templado** (A11, RT51 y demás unidades para catenaria) y **compuestos** (suspensión, atirantado, anclaje, ménsula, apoyo y aislamientos intermedios), así como los **aisladores de sección** que separan tramos de catenaria. También conocerás sus **características eléctricas** (línea de fuga, tensión soportada a frecuencia industrial y a impulso tipo rayo) y **mecánicas** (carga mecánica especificada, cargas de flexión y tracción), el proceso de **validación y los ensayos de recepción**, los requisitos de **marcado** y el papel de los **verificadores de tensión (ET 03.364.203.4)** y de los **dispositivos limitadores de tensión VLD (ET 03.364.204.2)**.
 
 ---
 
