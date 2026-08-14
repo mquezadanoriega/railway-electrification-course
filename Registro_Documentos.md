@@ -90,14 +90,14 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 | 50 | ET 03.364.102.8 | Brazos de atirantado | 15 | 5 | ✓ (Lección 12) |
 | 51 | ET 03.364.103.6 | Conjunto de poleas | 21 | 5 | ✓ (Lección 12) |
 | 52 | ET 03.364.104.4 | Conjuntos de giro | 14 | 5 | ✓ (Lección 12) |
-| 53 | ET 03.364.197.8 | *(soporte, por identificar)* | 25 | 5 | ✓ (Lección 12) |
+| 53 | ET 03.364.197.8 | *(soporte, por identificar)* | 25 | 5 | ☐ (sin título, no integrada) |
 
 ### Aislamiento y protección
 
 | # | Referencia | Título | Págs. | Módulo | Estado |
 |---|------------|--------|-------|--------|--------|
 | 54 | ET 03.364.153.1 | Aisladores de seccionador | — | 5 | ✓ (Lección 11) |
-| 55 | ET 03.364.154.9 | *(aislador, por identificar)* | — | 5 | ◐ (Lección 11, parcial) |
+| 55 | ET 03.364.154.9 | *(aislador, por identificar)* | — | 5 | ☐ (sin título, no integrada) |
 | 56 | ET 03.364.156.4 | Pararrayos de óxido metálico | 15 | 5 | ✓ (Lección 11) |
 | 57 | ET 03.364.162.2 | Aisladores cerámicos para LAC 3 kV CC y 25 kV CA | 23 | 5 | ✓ (Lección 11) |
 | 58 | ET 03.364.163.0 | Aisladores cerámicos de suspensión | 17 | 5 | ✓ (Lección 11) |
@@ -119,8 +119,8 @@ Las **ET (Especificaciones Técnicas) 03.364.xxx** definen los materiales y comp
 
 | # | Referencia | Título | Págs. | Módulo | Estado |
 |---|------------|--------|-------|--------|--------|
-| 67 | ET 03.364.503.7 | *(por identificar)* | — | 5 | ◐ (referenciado) |
-| 68 | ET 03.364.506.0 | *(por identificar)* | — | 5 | ◐ (referenciado) |
+| 67 | ET 03.364.503.7 | *(por identificar)* | — | 5 | ☐ (sin título, no integrada) |
+| 68 | ET 03.364.506.0 | *(por identificar)* | — | 5 | ☐ (sin título, no integrada) |
 
 ---
 
@@ -204,13 +204,19 @@ Energía)**.
 | Bloque | Contenido | Documentos | Estado |
 |--------|-----------|-----------|--------|
 | A | Normas NAE (catenaria) | 29 | ✔ integradas (Módulos 2 y 5) |
-| B | ET Línea Aérea de Contacto | 40 | ✔ integradas (Módulos 2 y 5) |
+| B | ET Línea Aérea de Contacto | 40 | ✔ 36 integradas · 4 sin identificar sin integrar |
 | C | ET Subestaciones Eléctricas | 30 | ✔ integradas (Módulo 5) |
 | D | ET Telemandos | 3 | ✔ integrados (Módulo 5) |
-| E | Normativa BOE (gálibos, IFI, IFE, REVINFE) | 4 | ✔ 3 integrados · 1 fuera de alcance |
-| **Total** | | **106** | **105 integrados** |
+| E | Normativa BOE (gálibos, IFI, IFE, REVINFE) | 4 | ✔ 4 integradas (REVINFE referenciada en Módulo 0) |
+| **Total** | | **106** | **102 integradas · 4 sin integrar** |
 
-> Los 3 documentos con estado ◐ (ET 03.364.019.4, 020.2 y 201.8, sin título
-> identificado) quedaron integrados parcialmente en la Lección 4 del Módulo 2.
-> Los demás documentos con referencia «por identificar» se integraron por bloque
-> temático en las lecciones correspondientes del Módulo 5.
+> Las 4 ET sin integrar (ET 03.364.197.8, 154.9, 503.7 y 506.0) no tienen título
+> identificado en la carpeta de origen; se catalogaron como «por identificar» y
+> no se pudieron procesar. Quedan pendientes de su identificación.
+>
+> Los 3 documentos con estado ◐ (ET 03.364.019.4, 020.2 y 201.8) están integrados
+> solo parcialmente en la Lección 4 del Módulo 2 (mismo motivo: sin título).
+>
+> Además de las normas catalogadas, las lecciones citan normas complementarias:
+> serie EN 501xx (EN 50119, 50122-1/-2/-3, 50149, 50163, 50367, 50388), RD 929/2020,
+> RD 223/2008 (RLAT), Directiva (UE) 2016/797, ETI de Energía (UE) 1301/2014, etc.
